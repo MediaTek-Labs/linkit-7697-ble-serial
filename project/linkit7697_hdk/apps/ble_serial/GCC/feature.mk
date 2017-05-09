@@ -1,5 +1,5 @@
 IC_CONFIG                           = mt7697
-BOARD_CONFIG                        = mt7697_hdk
+BOARD_CONFIG                        = linkit7697_hdk
 MTK_FW_VERSION                      = mt7697_fw
 MTK_FOTA_ENABLE                     = y
 MTK_DEBUG_LEVEL                     = info
@@ -11,7 +11,7 @@ MTK_LWIP_ENABLE                     = y
 MTK_WIFI_WPS_ENABLE                 = n
 MTK_WIFI_TGN_VERIFY_ENABLE          = y
 MTK_WIFI_REPEATER_ENABLE            = y
-MTK_WIFI_PRIVILEGE_ENABLE           = y
+MTK_WIFI_PRIVILEGE_ENABLE           = n
 MTK_MINICLI_ENABLE                  = n
 
 # bt module enable
