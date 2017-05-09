@@ -14,8 +14,8 @@ Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt768
 
 * Put/Extract the files into SDK root, so that there is `[SDK_root]/project/linkit7697_hdk/apps/ble_serial`
 * Execute `./build.sh linkit7697_hdk ble_serial` under Linux enviornment
-* Check generated bin at `[SDK_root]/out/linkit7697_hdk/ble_serial/GCC/ble_serial.bin`
-* Use Flashtool to download `[SDK_root]/out/linkit7697_hdk/ble_serial/GCC/flash_download.ini` into LinkIt 7697 HDK
+* Check generated bin at `[SDK_root]/out/linkit7697_hdk/ble_serial/GCC/build/ble_serial.bin`
+* Use Flashtool to download `[SDK_root]/out/linkit7697_hdk/ble_serial/GCC/build/flash_download.ini` into LinkIt 7697 HDK
 
 ### Mobile Side
 
