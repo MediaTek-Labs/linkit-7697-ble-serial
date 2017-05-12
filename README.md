@@ -3,6 +3,11 @@ How to use BLE to do serial communication on LinkIt 7697 HDK
 
 Additinal resource can be found at https://docs.labs.mediatek.com/resource/mt7687-mt7697
 
+```diff
+- Note. 
+- Linkit 7697 HDK is only supported by LinkIt SDK 4.3 and later version. 
+- There might be compile error to use them on older version.
+```
 ## Folder Structure
 
 * `android/ble_serial`: Android studio project files.
