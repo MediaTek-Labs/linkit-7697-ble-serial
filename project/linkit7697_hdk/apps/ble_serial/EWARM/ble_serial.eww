@@ -2,7 +2,7 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\ble_fota.ewp</path>
+    <path>$WS_DIR$\ble_serial.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

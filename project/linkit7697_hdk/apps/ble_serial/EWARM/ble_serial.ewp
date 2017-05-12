@@ -17,15 +17,15 @@
         <debug>1</debug>
         <option>
           <name>ExePath</name>
-          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_fota\Debug\Exe</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_serial\Debug\Exe</state>
         </option>
         <option>
           <name>ObjPath</name>
-          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_fota\Debug\Obj</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_serial\Debug\Obj</state>
         </option>
         <option>
           <name>ListPath</name>
-          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_fota\Debug\List</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\out_iar\linkit7697_hdk\ble_serial\Debug\List</state>
         </option>
         <option>
           <name>GEndianMode</name>
@@ -335,10 +335,10 @@
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\lwip\ports\include</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\dhcpd\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\dhcpd\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\minicli\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\minisupp\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\minisupp\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\common\include</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\lwip\src\include</state>
@@ -351,19 +351,21 @@
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\iperf\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\project\linkit7697_hdk\apps\ble_smart_connect\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\util\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\util\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bluetooth\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\bluetooth\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\ble_smtcn\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\ept\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\ept\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\mbedtls\include</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\mbedtls\configs</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\external_flash\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\inc</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\connsys\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_notify\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_notify\inc\dogp</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_callback_manager\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\inc</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\inc\76x7</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\inc\internal</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\tftp\inc</state>
           <state>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\httpclient\inc</state>
         </option>
@@ -661,7 +663,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>ble_fota.bin</state>
+          <state>ble_serial.bin</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -716,7 +718,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>ble_fota.out</state>
+          <state>ble_serial.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
@@ -1674,7 +1676,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>ble_fota.out</state>
+          <state>ble_serial.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
@@ -2015,10 +2017,10 @@
       <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bluetooth\src\bt_task.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bluetooth\lib\libble_iar.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\bluetooth\lib\libble_iar.a</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bluetooth\lib\libbtdriver_7697_iar.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\bluetooth\lib\libbtdriver_7697_iar.a</name>
     </file>
   </group>
   <group>
@@ -2039,16 +2041,16 @@
   <group>
     <name>driver</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\external_flash\src\bsp_flash_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\external_flash\src\bsp_flash_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\sdio_gen3\connsys_bus.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\connsys\src\connsys_bus.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\sdio_gen3\connsys_driver.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\connsys\src\connsys_driver.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\sdio_gen3\connsys_util.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\connsys\src\connsys_util.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\common\cos_api.c</name>
@@ -2174,10 +2176,10 @@
       <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\common\ir_tx.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\lib\libhal_core_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\driver\chip\mt7687\lib\libhal_core_CM4_IAR.a</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\lib\libhal_protected_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\driver\chip\mt7687\lib\libhal_protected_CM4_IAR.a</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\driver\chip\mt7687\src\common\low_hal_gpio.c</name>
@@ -2249,6 +2251,18 @@
   <group>
     <name>kernel</name>
     <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\src\context_info_save.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\src\exception_handler.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\src\syslog.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\src\toi.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\..\..\..\..\kernel\rtos\FreeRTOS\Source\event_groups.c</name>
     </file>
     <file>
@@ -2278,9 +2292,6 @@
   </group>
   <group>
     <name>kservice</name>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\lib\libkservice_CM4_MT7687_IAR.a</name>
-    </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\kernel\service\src\memory_regions.c</name>
     </file>
@@ -2540,48 +2551,49 @@
   <group>
     <name>bsp</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\ept\src\bsp_gpio_ept_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\linkit7697_hdk\ept\src\bsp_gpio_ept_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\get_profile_string.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\get_profile_string.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\lib\libwifi_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\wifi_service\combo\lib\wifi_supp\libwifi_CM4_IAR.a</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_os_api.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\inband_queue_option.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\misc.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\misc.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\os_util.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_os_ext\os_util.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\os_utils.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_os_ext\os_utils.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_channel.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_channel.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_default_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\init\wifi_default_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_inband_cli.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\init\wifi_init.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_init.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_os_api.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_profile.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_profile.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\driver\board\mt76x7_hdk\wifi\src\wifi_wps.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\wifi_service\combo\src\wifi_wps.c</name>
     </file>
-  </group>  <group>
+  </group>  
+  <group>
     <name>minisupp</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\minisupp\lib\libminisupp_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\minisupp\lib\libminisupp_CM4_IAR.a</name>
     </file>
   </group>
   <group>
@@ -2593,13 +2605,13 @@
   <group>
     <name>dhcpd</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\third_party\dhcpd\src\dhcpd.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\dhcpd\src\dhcpd.c</name>
     </file>
   </group>
   <group>
     <name>nvdm</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\nvdm\lib\libnvdm_CM4_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\nvdm\lib\libnvdm_CM4_IAR.a</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\nvdm\src\nvdm_port.c</name>
@@ -2632,7 +2644,10 @@
       <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_notify\src\dogp\ble_dogp_service.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_notify\lib\libbtnotify_IAR.a</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\prebuilt\middleware\MTK\bt_notify\lib\libbtnotify_IAR.a</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\bt_notify\src\bt_spp_dummy.c</name>
     </file>
   </group>
   <group>
@@ -2647,19 +2662,19 @@
       <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\fota.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\76x7\fota_76x7.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\internal\fota_internal.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\76x7\fota_config.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\internal\fota_config.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\76x7\fota_port.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\internal\fota_port.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\76x7\fota_cli.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\internal\fota_cli.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\76x7\fota_download_interface.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\middleware\MTK\fota\src\internal\fota_download_interface.c</name>
     </file>
   </group>
 </project>
